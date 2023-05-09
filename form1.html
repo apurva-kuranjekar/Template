@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select { 
+  width: 100%;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+h1,h5{
+    text-align: center;
+}
+  
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(124, 124, 221);
+}
+
+   
+
+   
+
+
+.container {
+     position: relative;
+     top:100px;
+    left:600px; 
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+  width: 400px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>Welcome</h1>
+<h5>Let's create your account !</h5>
+
+<center> <input type="text" id="fname" name="firstname" placeholder="firstname..">
+    <label for="fname">First Name</label><br><br>
+
+   
+    <input type="text" id="lname" name="lastname" placeholder="lastname..">
+    <label for="lname">Last Name</label><br><br>
+
+    
+    <input type="text" id="email" name="email" placeholder="Email">      
+    <label for="email">Email</label><br><br><br>
+
+    <input type="submit" value="Submit"></center>
+  </form>
+</div>
+
+</body>
+</html>

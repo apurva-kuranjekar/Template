@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: rgb(71, 138, 164);
+      }
+
+      h2,h5,h3 {
+        text-align: center;
+        color: white;
+      }
+      
+      form {
+        margin: 50px auto;
+        max-width: 400px;
+        color: white;
+      }
+      
+      label {
+        display: ruby-base-container;
+        margin-bottom: 5px;
+        font-weight: bolder;
+      }
+      
+      input, select, textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 17px;
+       
+      }
+      
+      button[type="submit"] {
+        display: block;
+        margin: 20px auto 0;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: blue;
+        color: #fff;
+        cursor: pointer;
+        width: 105%;
+      }
+      
+     
+      </style>
+      <body>
+        <div class="container">
+            <h2><b>iNeuron</b></h2>
+            <h5>lopem lpsum dolor sit amet conseectetur adipisicing elit,Facere labore officlis odio?</h5>
+            <h3>Contact Us</h3>
+         <form>
+            <div class="row">
+                <div class="col">
+             <label>Name:
+             <input type="text" class="col-sm-2 col-form-label" id="name" name="name">
+        
+              <label>Email:</label>
+              <input class="col-sm-2 col-form-label" id="email" name="email">
+        
+              <label>Mobile No:</label>
+              <input class="col-sm-2 col-form-label" id="phone" name="phone">
+        
+              <label>Service You Want:</label>
+              <select id="service" class="form-control" name="service">
+                <option value="">--Select--</option>
+                <option value="Web Design">Web Design</option>
+                <option value="Web Development">Developer</option>
+                <option value="SEO">Testing</option>
+                <option value="Content Writing">Content Writing</option>
+              </select>
+              <label>Message:</label>
+              <textarea id="message" class="col-sm-2 col-form-label" name="message"></textarea>
+        
+              <button type="submit">Submit</button>
+              </div></div>
+            </form>
+         </body>
+</html>

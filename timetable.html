@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style6.css">
+    <title>table</title>
+</head>
+<style>
+    td {
+        background-color: aquamarine;
+    }
+    tr{
+        width: 50px;
+        border-color: aliceblue;
+        box-sizing: border-box;
+    }
+
+    th{
+        color: red;
+        font-family:Papyrus;
+        background-color: aquamarine;
+    }
+    #a2{
+        position: absolute;
+        bottom: 160px;
+        left:100px;
+}
+h1{
+    font-family: bold ,Papyrus;
+}
+
+#a1{
+    background-color: cornflowerblue;
+}
+hr{
+    border-style: solid;
+    border-width: 3px;
+    color: darkgrey;
+}
+</style>
+<body>
+    
+    <h1> Tables </h1>
+    <hr>
+    <table id="myTable" cellpadding="10">
+        <caption id="a2">My Timetable</caption>
+
+        <tr>
+            <th id ="mytitle" colspan="4">Fall Term</th>
+        </tr>
+
+        <tr>
+           <th></th> 
+           <th scope="cols">wed</th>
+           <th scope="cols">Thru</th>
+           <th scope="cols">Fri</th>
+        </tr>
+
+        <tr>
+            <th scope="row">8:00</th>
+            <td rowspan="2">English</td>
+            <td rowspan="2">Art</td>
+            <td rowspan="2" id="a1">English</td>
+        </tr>
+
+        <tr>
+            <th scope="row">8:30</th>
+        </tr>
+        
+        <tr>
+            <th scope="row">9:00</th>
+            <td>Math(test)</td>
+            <td>Music</td>
+            <td>Math</td>
+         </tr>
+
+         <tr>
+            <th scope="row">9:45</th>
+            <td>English</td>
+            <td>Chinese(test)</td>
+            <td>Chinese</td> 
+         </tr>
+    
+</body>
+</html>
